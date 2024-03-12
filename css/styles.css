@@ -7,10 +7,13 @@
 /* Typography */
 html {
   font-size: 62.5%;
+  color: hsl(220 15% 55%);
 }
 
 h1 {
   margin-bottom: 1.5rem;
+  color: hsl(218 44% 22%);
+  font-weight: 700;
 }
 
 p {
@@ -20,4 +23,58 @@ p {
 body {
   font-family: "Outfit", Arial, Helvetica, sans-serif;
   font-size: 1.5rem;
+}
+
+.block {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: hsl(212 45% 89%);
+  padding: 0 2rem;
+}
+
+/* QR-Code */
+.qr-code {
+  box-shadow: 0 0 1rem hsl(212 45% 89%);
+  background: #fff;
+  border-radius: 2rem;
+  max-width: 45rem;
+  margin: 0 auto;
+}
+
+.qr-code__header,
+.qr-code__body {
+  padding: 2rem;
+}
+
+.qr-code__header {
+  padding-bottom: 0;
+}
+
+.qr-code__body {
+  padding-top: 0;
+  padding-bottom: 3rem;
+  text-align: center;
+}
+
+.qr-code__header {
+}
+
+.qr-code__image {
+  width: 100%;
+  border-radius: 2rem;
+}
+
+.challenge {
+  margin-top: 2rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
