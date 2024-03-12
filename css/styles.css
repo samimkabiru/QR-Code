@@ -1,0 +1,23 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Typography */
+html {
+  font-size: 62.5%;
+}
+
+h1 {
+  margin-bottom: 1.5rem;
+}
+
+p {
+  margin: 0;
+}
+
+body {
+  font-family: "Outfit", Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+}
